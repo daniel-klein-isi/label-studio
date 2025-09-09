@@ -1,0 +1,17 @@
+[project]
+name = "label_studio"
+version = "0.1.0"
+description = "A Python package for data extraction and integration from Label Studio."
+authors = [
+    { name = "Daniel Klein", email = "daniel.klein@senairs.org.br" },
+    { name = "Giovanni Gaiardo", email = "giovanni.gaiardo@senairs.org.br" },
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"] # Search for packages in the 'src' directory

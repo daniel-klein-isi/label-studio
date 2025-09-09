@@ -1,1 +1,3 @@
-label-studio
+dotenv
+label-studio-sdk==1.0.18
+numpy>=1.5.1
