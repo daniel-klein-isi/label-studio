@@ -1,0 +1,13 @@
+services:
+  label-studio:
+    container_name: projectname-label-studio
+    image: projectname-label-studio:latest
+    build: .
+    ports:
+      - 8000:8000
+    restart: always
+    volumes:
+      - ./data:/workspace/data
+      - ls_config_data:/workspace/config
+volumes:
+  ls_config_data:
