@@ -8,6 +8,6 @@ services:
     restart: always
     volumes:
       - ./data:/workspace/data
-      - ls_config_data:/workspace/config
+      - ./ls_config_data:/workspace/config
 volumes:
   ls_config_data:
